@@ -18,9 +18,12 @@ class AnimationsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemPink
+        view.backgroundColor = .systemBackground
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        scaleImageAddNewImageAnimation()
+    }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         //scaleAnimation()

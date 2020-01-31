@@ -13,7 +13,7 @@
 		C610943923E4830300D38A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610943723E4830300D38A16 /* LaunchScreen.storyboard */; };
 		C610944123E4832E00D38A16 /* AnimationsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610944023E4832E00D38A16 /* AnimationsTabBar.swift */; };
 		C610944323E4836D00D38A16 /* AnimationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610944223E4836D00D38A16 /* AnimationsVC.swift */; };
-		C610944523E4837C00D38A16 /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610944423E4837C00D38A16 /* ConstraintsViewController.swift */; };
+		C610944523E4837C00D38A16 /* ConstraintsAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610944423E4837C00D38A16 /* ConstraintsAnimationVC.swift */; };
 		C6C643FB23E486BB00080879 /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C643FA23E486BB00080879 /* AnimationsView.swift */; };
 		C6C643FD23E49B6100080879 /* ConstraintsAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C643FC23E49B6100080879 /* ConstraintsAnimation.storyboard */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		C610943A23E4830300D38A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C610944023E4832E00D38A16 /* AnimationsTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTabBar.swift; sourceTree = "<group>"; };
 		C610944223E4836D00D38A16 /* AnimationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsVC.swift; sourceTree = "<group>"; };
-		C610944423E4837C00D38A16 /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
+		C610944423E4837C00D38A16 /* ConstraintsAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationVC.swift; sourceTree = "<group>"; };
 		C6C643FA23E486BB00080879 /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		C6C643FC23E49B6100080879 /* ConstraintsAnimation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConstraintsAnimation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +67,7 @@
 				C610944023E4832E00D38A16 /* AnimationsTabBar.swift */,
 				C6C643FA23E486BB00080879 /* AnimationsView.swift */,
 				C610944223E4836D00D38A16 /* AnimationsVC.swift */,
-				C610944423E4837C00D38A16 /* ConstraintsViewController.swift */,
+				C610944423E4837C00D38A16 /* ConstraintsAnimationVC.swift */,
 				C6C643FC23E49B6100080879 /* ConstraintsAnimation.storyboard */,
 				C610943523E4830300D38A16 /* Assets.xcassets */,
 				C610943723E4830300D38A16 /* LaunchScreen.storyboard */,
@@ -152,7 +152,7 @@
 				C610944323E4836D00D38A16 /* AnimationsVC.swift in Sources */,
 				C610942D23E4830100D38A16 /* AppDelegate.swift in Sources */,
 				C610942F23E4830100D38A16 /* SceneDelegate.swift in Sources */,
-				C610944523E4837C00D38A16 /* ConstraintsViewController.swift in Sources */,
+				C610944523E4837C00D38A16 /* ConstraintsAnimationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
