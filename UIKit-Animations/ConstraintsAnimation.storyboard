@@ -59,6 +59,7 @@
                         <viewLayoutGuide key="safeArea" id="ICj-cR-1hJ"/>
                     </view>
                     <connections>
+                        <outlet property="pinkBox" destination="7X2-sB-vK2" id="bgd-aV-9LA"/>
                         <outlet property="pinkBoxYConstraint" destination="AId-7C-J4a" id="Py2-8g-zjf"/>
                     </connections>
                 </viewController>
