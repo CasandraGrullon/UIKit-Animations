@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C601688B23E9CBED00529801 /* TransitionsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601688A23E9CBED00529801 /* TransitionsAnimationController.swift */; };
 		C601688D23E9CBFB00529801 /* TransitionsAnimations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C601688C23E9CBFB00529801 /* TransitionsAnimations.storyboard */; };
+		C601688F23E9D74D00529801 /* PropertyAnimatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601688E23E9D74D00529801 /* PropertyAnimatorController.swift */; };
+		C601689123E9D75A00529801 /* PropertyAnimator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C601689023E9D75A00529801 /* PropertyAnimator.storyboard */; };
 		C610942D23E4830100D38A16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610942C23E4830100D38A16 /* AppDelegate.swift */; };
 		C610942F23E4830100D38A16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610942E23E4830100D38A16 /* SceneDelegate.swift */; };
 		C610943623E4830300D38A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C610943523E4830300D38A16 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		C601688A23E9CBED00529801 /* TransitionsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsAnimationController.swift; sourceTree = "<group>"; };
 		C601688C23E9CBFB00529801 /* TransitionsAnimations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransitionsAnimations.storyboard; sourceTree = "<group>"; };
+		C601688E23E9D74D00529801 /* PropertyAnimatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimatorController.swift; sourceTree = "<group>"; };
+		C601689023E9D75A00529801 /* PropertyAnimator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PropertyAnimator.storyboard; sourceTree = "<group>"; };
 		C610942923E4830100D38A16 /* UIKit-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610942C23E4830100D38A16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C610942E23E4830100D38A16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,10 +75,12 @@
 				C610944023E4832E00D38A16 /* AnimationsTabBar.swift */,
 				C6C643FA23E486BB00080879 /* AnimationsView.swift */,
 				C610944223E4836D00D38A16 /* AnimationsVC.swift */,
-				C601688A23E9CBED00529801 /* TransitionsAnimationController.swift */,
-				C601688C23E9CBFB00529801 /* TransitionsAnimations.storyboard */,
 				C610944423E4837C00D38A16 /* ConstraintsAnimationVC.swift */,
 				C6C643FC23E49B6100080879 /* ConstraintsAnimation.storyboard */,
+				C601688A23E9CBED00529801 /* TransitionsAnimationController.swift */,
+				C601688C23E9CBFB00529801 /* TransitionsAnimations.storyboard */,
+				C601688E23E9D74D00529801 /* PropertyAnimatorController.swift */,
+				C601689023E9D75A00529801 /* PropertyAnimator.storyboard */,
 				C610943523E4830300D38A16 /* Assets.xcassets */,
 				C610943723E4830300D38A16 /* LaunchScreen.storyboard */,
 				C610943A23E4830300D38A16 /* Info.plist */,
@@ -142,6 +148,7 @@
 			files = (
 				C601688D23E9CBFB00529801 /* TransitionsAnimations.storyboard in Resources */,
 				C610943923E4830300D38A16 /* LaunchScreen.storyboard in Resources */,
+				C601689123E9D75A00529801 /* PropertyAnimator.storyboard in Resources */,
 				C610943623E4830300D38A16 /* Assets.xcassets in Resources */,
 				C6C643FD23E49B6100080879 /* ConstraintsAnimation.storyboard in Resources */,
 			);
@@ -160,6 +167,7 @@
 				C610944323E4836D00D38A16 /* AnimationsVC.swift in Sources */,
 				C610942D23E4830100D38A16 /* AppDelegate.swift in Sources */,
 				C610942F23E4830100D38A16 /* SceneDelegate.swift in Sources */,
+				C601688F23E9D74D00529801 /* PropertyAnimatorController.swift in Sources */,
 				C610944523E4837C00D38A16 /* ConstraintsAnimationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
