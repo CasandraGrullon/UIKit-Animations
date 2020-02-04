@@ -28,10 +28,20 @@ class AnimationsTabBar: UITabBarController {
         return viewcontroller
     }()
     
+    private lazy var transitionsVC: TransitionsAnimationController = {
+        let transitionsStoryboard = UIStoryboard(name: "TransitionsAnimations", bundle: nil)
+        
+        guard let viewcontroller = transitionsStoryboard.instantiateViewController(identifier: "TransitionsAnimationController") as? TransitionsAnimationController else {
+            fatalError("could not load TransitionsAnimations")
+        }
+        viewcontroller.tabBarItem = UITabBarItem(title: "Transitions Animation", image: UIImage(systemName: "3.circle"), tag: 2)
+        return viewcontroller
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewControllers = [animationsVC, constraintsVC]
+        viewControllers = [animationsVC, constraintsVC, transitionsVC]
     }
     
 }
