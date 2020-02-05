@@ -22,9 +22,9 @@ class PropertyAnimatorController: UIViewController {
         
         //2. instantiate the animator property
         animator = UIViewPropertyAnimator(duration: 1.5, curve: .easeInOut, animations: {
+            //2a. assign transform animation
             self.duckImage.transform = CGAffineTransform(scaleX: 3.0, y: 1)
         })
-        
     }
     
     @IBAction func sliderDidChange(_ sender: UISlider) {
